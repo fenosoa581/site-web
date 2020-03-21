@@ -1,0 +1,23 @@
+body{
+    background-image: url(grass.jpg);
+}
+h1 {
+    color: aqua;
+}
+.grid-container {
+  display: grid;
+     grid-template-columns: repeat(5, 150px);
+  grid-template-rows: repeat(5, 150px);
+    padding: 10px;
+
+}
+
+.grid {
+      background-color: white;
+  
+  padding: 20px;
+ 
+}
+div .wall {
+    background-image: url(wall.jpg);
+}
